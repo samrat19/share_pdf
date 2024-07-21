@@ -34,7 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
   sharePDF() async {
     SharePDF sharePDF = SharePDF(
       url: "https://pdfobject.com/pdf/sample.pdf",
-      headerText: "Header text goes here",
       subject: "Subject Line goes here",
     );
     await sharePDF.downloadAndShare();

@@ -1,16 +1,26 @@
-## 0.0.1 [Release]
+## 0.0.1
 
 * a Flutter plugin to share pdf
 
 
-## 0.0.2 [Release]
+## 0.0.2
 
 * a Flutter plugin to share pdf 
 
-## 0.0.3 [Release]
+## 0.0.3
 
 * a Flutter plugin to share pdf 
 
-## 0.0.4 [Release]
+## 0.0.4
 
 * a Flutter plugin to share pdf 
+
+
+## 0.0.5
+
+* removes header text
+
+
+## 0.0.6
+
+* removes header text
