@@ -1,24 +1,6 @@
-[![support](https://img.shields.io/badge/platform-flutter%7Cflutter%20web%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/flutterchina/dio)
-
 # share_pdf
 
 A new Flutter package to share pdf across the media
-
-*The package is under construction. Just live to test some features*
-
-## Getting Started
-
-
-
-
-
-## Features
-
-*The package is under construction. Just live to test some features*
-
-## Getting started
-
-*The package is under construction. Just live to test some features*
 
 ## Android
 
