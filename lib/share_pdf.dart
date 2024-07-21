@@ -4,7 +4,6 @@ import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
-
 ///base of the package
 class SharePDF {
   ///here is the [url] of the specific pdf
@@ -21,7 +20,6 @@ class SharePDF {
 
   ///this functions [downloadAndShare] is responsible to get the url and make file and share the document
   Future downloadAndShare() async {
-
     ///gets the temporary directory of the device
     ///
     var tempDir = await getApplicationDocumentsDirectory();
@@ -38,7 +36,6 @@ class SharePDF {
 
     try {
       File file = File(fullPath);
-
 
       await Share.shareXFiles(
           [XFile.fromData(file.readAsBytesSync(), path: fullPath)],

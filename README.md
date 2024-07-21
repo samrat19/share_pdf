@@ -1,6 +1,6 @@
 # share_pdf
 
-A new Flutter package to share pdf across the media
+A new Flutter package where you can give a pdf url from API, web and you can share a pdf file in any media, not just an url, it will be shared as an pdf file
 
 ## Android
 

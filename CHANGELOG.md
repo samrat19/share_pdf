@@ -24,3 +24,12 @@
 ## 0.0.6
 
 * removes header text
+
+## 0.0.7
+
+* removes header text
+
+
+## 0.0.8
+
+* removes header text
