@@ -10,3 +10,7 @@
 ## 0.0.3 [Release]
 
 * a Flutter plugin to share pdf 
+
+## 0.0.4 [Release]
+
+* a Flutter plugin to share pdf 

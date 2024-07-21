@@ -1,6 +1,6 @@
 name: share_pdf
 description: "A new Flutter package to share pdf across the media"
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/samrat19/share_pdf/blob/main/example/lib/main.dart
 
 environment:
