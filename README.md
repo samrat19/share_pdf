@@ -1,43 +1,51 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+[![support](https://img.shields.io/badge/platform-flutter%7Cflutter%20web%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/flutterchina/dio)
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+# share_pdf
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+A new Flutter package to share pdf across the media
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+*The package is under construction. Just live to test some features*
+
+## Getting Started
+
+
+
+
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+*The package is under construction. Just live to test some features*
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+*The package is under construction. Just live to test some features*
 
 ## Android
 
 Go to your app/build.gradle & change compileSdkVersion to 34  
+change your kotlin version to 1.8.0 in android/build.gradle
+
+```groovy
+
+ ext.kotlin_version = '1.8.0'
+
+```
+
+add the following permission in your manifest.xml
+
+```xml
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+  SharePDF sharePDF = SharePDF(
+  url: "https://pdfobject.com/pdf/sample.pdf",
+  headerText: "Header text goes here",
+  subject: "Subject Line goes here",
+);
+await sharePDF.downloadAndShare();
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

@@ -1,3 +1,12 @@
-## 0.0.1
+## 0.0.1 [Release]
 
-* TODO: Describe initial release.
+* a Flutter plugin to share pdf
+
+
+## 0.0.2 [Release]
+
+* a Flutter plugin to share pdf 
+
+## 0.0.3 [Release]
+
+* a Flutter plugin to share pdf 
