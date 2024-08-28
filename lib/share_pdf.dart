@@ -2,6 +2,7 @@ library share_pdf;
 
 import 'dart:io';
 import 'package:dio/dio.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -21,7 +22,6 @@ class SharePDF {
 
   ///this functions [downloadAndShare] is responsible to get the url and make file and share the document
   Future downloadAndShare() async {
-
     ///initialize Dio
     ///
     Dio dio = Dio();
@@ -41,8 +41,9 @@ class SharePDF {
     File(fullPath).create(recursive: true);
 
     try {
-
       Response response = await dio.download(url, fullPath);
+
+      debugPrint('Response: ${response.data}');
 
       File file = File(fullPath);
 
