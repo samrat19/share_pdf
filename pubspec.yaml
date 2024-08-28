@@ -1,10 +1,10 @@
 name: share_pdf
 description: "A new Flutter package where you can give a pdf url from API, web and you can share a pdf file in any media, not just an url, it will be shared as an pdf file"
-version: 0.0.8
+version: 1.0.0
 homepage: https://github.com/samrat19/share_pdf/blob/main/example/lib/main.dart
 
 environment:
-  sdk: '>=3.2.2 <4.0.0'
+  sdk: '>=2.19.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   path_provider: ^2.1.1
   share_plus: ^7.2.2
+  dio:
 
 dev_dependencies:
   flutter_test:

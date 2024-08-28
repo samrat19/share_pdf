@@ -33,3 +33,16 @@
 ## 0.0.8
 
 * removes header text
+
+
+## 0.0.9
+
+* makes functional
+
+## 1.0.0
+
+* makes functional
+
+## 1.0.1
+
+* makes functional
